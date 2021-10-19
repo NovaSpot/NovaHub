@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style type="text/css">
+body{
+background-color:white;
+}
+input{
+border-radius:8px;
+width:70%;
+padding:10px;
+margin-top:2%;
+margin-bottom:2%;
+margin-right:2%;
+margin-left:2%;
+
+
+}
+button{
+padding:8px;
+border-radius: 8px;
+border-stroke:10px;
+border-color:white;
+width:34%;
+margin-top:10px;
+}
+
+img.emailicon
+{
+padding:0px;
+border-radius:2px;
+border-color:black;
+border-stroke:10px;
+margin: auto;
+}
+img.icon{
+margin-bottom:20px;
+margin-top:50%;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+}
+div{margin: auto;
+align-items: center;
+justify-content: center;
+line-height: 10px;
+text-align: center;
+}
+ 
+ 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+</style>
+<title></title>
+</head>
+<body>
+ <center>
+  <img id="logo" class="icon" src="https://media.discordapp.net/attachments/851488864657080322/898076750146306078/logo.png" width="40" height="49" ></img>
+   </br>
+  <input id="username" placeholder="Enter Your Username" class="username">
+   </br>
+ <div class="clearfix">
+  <center>
+  <img width="20px" height="20px" class="emailicon" src="https://www.pngfind.com/pngs/m/139-1396317_png-file-email-icon-no-background-transparent-png.png">
+   <input id="email" placeholder="Enter Your Email" class="email" >
+   
+   </center>
+  </div>
+  <input id ="password" placeholder="Enter Your Password" class="password" >
+   </br>
+      <button id="signin" class="signin">Sign In
+        </button>
+         or
+      <button id="signup" class="signup" >Sign Up
+     </button>
+ </center>
+</body>
+</html>
